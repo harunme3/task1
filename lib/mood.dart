@@ -1,6 +1,5 @@
 import 'package:animated_emoji/animated_emoji.dart';
 import 'package:flutter/material.dart';
-import 'package:logger/logger.dart';
 import 'package:task1/colorconstant.dart';
 import 'package:intl/intl.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
@@ -35,7 +34,9 @@ class _MoodState extends State<Mood> {
         leading: Icon(Icons.arrow_back),
         title: Text(
           'Xcellence PVT LTD Company,Lucknow',
-          style: TextStyle(fontSize: 16.0),
+          style: TextStyle(
+            fontSize: msmallfontsize,
+          ),
         ),
         centerTitle: true,
       ),
